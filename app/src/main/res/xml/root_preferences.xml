@@ -64,6 +64,13 @@
             android:key="gamespace_stay_awake"
             android:summary="@string/stay_awake_summary"
             android:title="@string/stay_awake_title" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="gamespace_adb_disabled"
+            android:summary="@string/adb_disabled_summary"
+            android:title="@string/adb_disabled_title" />
+
     </PreferenceCategory>
 
     <io.chaldeaprjkt.gamespace.preferences.AppListPreferences

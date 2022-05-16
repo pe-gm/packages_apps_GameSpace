@@ -68,4 +68,6 @@
 
     <string name="per_app_unregister">Remove %1$s from library</string>
 
+    <string name="adb_disabled_summary">Temporary disable USB ADB debugging while in-game</string>
+    <string name="adb_disabled_title">Disable USB debugging</string>
 </resources>

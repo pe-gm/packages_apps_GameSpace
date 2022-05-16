@@ -61,11 +61,16 @@ class AppSettings @Inject constructor(private val context: Context) {
         get() = db.getString(KEY_RINGER_MODE, "0").toInt()
         set(value) = db.edit().putString(KEY_RINGER_MODE, value.toString()).apply()
 
+    var noAdbEnabled
+        get() = db.getBoolean(KEY_ADB_DISABLE, false)
+        set(it) = db.edit().putBoolean(KEY_ADB_DISABLE, it).apply()
+
     companion object {
         const val KEY_HEADS_UP_DISABLE = "gamespace_heads_up_disabled"
         const val KEY_AUTO_BRIGHTNESS_DISABLE = "gamespace_auto_brightness_disabled"
         const val KEY_3SCREENSHOT_DISABLE = "gamespace_tfgesture_disabled"
         const val KEY_STAY_AWAKE = "gamespace_stay_awake"
         const val KEY_RINGER_MODE = "gamespace_ringer_mode"
+        const val KEY_ADB_DISABLE = "gamespace_adb_disabled"
     }
 }
