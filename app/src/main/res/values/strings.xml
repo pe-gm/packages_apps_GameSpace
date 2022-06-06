@@ -14,7 +14,7 @@
     limitations under the License.
   -->
 
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="settings_title">Game Space</string>
     <string name="settings_summary">Manage your gaming setup</string>
     <string name="app_selector_label">Pick your game</string>
@@ -73,4 +73,6 @@
     <string name="adb_disabled_title">Disable USB debugging</string>
 
     <string name="date_format" translatable="false">EEEE, MMM d</string>
+
+    <string name="battery_format">Battery: <xliff:g id="percentage" example="100">%1$d%%</xliff:g></string>
 </resources>
