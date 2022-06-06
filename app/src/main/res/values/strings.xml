@@ -72,5 +72,5 @@
     <string name="adb_disabled_summary">Temporary disable USB ADB debugging while in-game</string>
     <string name="adb_disabled_title">Disable USB debugging</string>
 
-    <string name="date_format" translatable="false">dd.MM.yyyy</string>
+    <string name="date_format" translatable="false">EEEE, MMM d</string>
 </resources>
