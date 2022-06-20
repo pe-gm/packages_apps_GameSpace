@@ -89,8 +89,11 @@
     <string name="notification_reticker">reTicker</string>
     <string name="notification_danmaku">Danmaku</string>
     
+    <!-- Ringer Mode -->
     <string name="in_game_calls_title">In-game call</string>
     <string name="in_game_calls_no_action">No action</string>
     <string name="in_game_calls_auto_answer">Auto answer</string>
     <string name="in_game_calls_auto_reject">Auto reject</string>
+    <string name="in_game_calls_received_number">Received call from %1$s</string>
+    <string name="in_game_calls_rejected_number">Rejected call from %1$s</string>
 </resources>
