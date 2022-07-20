@@ -40,17 +40,6 @@ class SystemSettings @Inject constructor(
             )
         }
 
-    var reTicker
-        get() =
-            Settings.System.getInt(resolver, Settings.System.RETICKER_STATUS, 0) == 1
-        set(it) {
-            Settings.System.putInt(
-                resolver,
-                Settings.System.RETICKER_STATUS,
-                it.toInt()
-            )
-        }
-
     var autoBrightness
         get() =
             Settings.System.getIntForUser(
