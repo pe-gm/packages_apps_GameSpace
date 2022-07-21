@@ -20,9 +20,9 @@ import android.provider.Settings;
 import android.os.UserHandle;
 import android.util.AttributeSet;
 
-import lineageos.preference.SelfRemovingSwitchPreference;
+import androidx.preference.SwitchPreference;
 
-public class SystemSettingSwitchPreference extends SelfRemovingSwitchPreference {
+public class SystemSettingSwitchPreference extends SwitchPreference {
 
     public SystemSettingSwitchPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
@@ -36,17 +36,14 @@ public class SystemSettingSwitchPreference extends SelfRemovingSwitchPreference 
         super(context);
     }
 
-    @Override
     protected boolean isPersisted() {
         return Settings.System.getString(getContext().getContentResolver(), getKey()) != null;
     }
 
-    @Override
     protected void putBoolean(String key, boolean value) {
         Settings.System.putIntForUser(getContext().getContentResolver(), key, value ? 1 : 0, UserHandle.USER_CURRENT);
     }
 
-    @Override
     protected boolean getBoolean(String key, boolean defaultValue) {
         return Settings.System.getIntForUser(getContext().getContentResolver(),
                 key, defaultValue ? 1 : 0, UserHandle.USER_CURRENT) != 0;
