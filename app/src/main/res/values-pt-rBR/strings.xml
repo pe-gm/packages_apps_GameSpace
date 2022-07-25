@@ -50,6 +50,8 @@
     <string name="notification_mode_hide">Não mostrar</string>
     <string name="notification_mode_headsup">Mostrar como notificações flutuantes</string>
     <string name="notification_mode_danmaku">Mostrar como Danmaku</string>
+    <string name="notification_hide">Esconder</string>
+    <string name="notification_headsup">Notificação flutuante</string>
     <string name="ringer_mode_title">Modo de toque</string>
     <string name="ringer_mode_silent">Silencioso</string>
     <string name="ringer_mode_vibrate">Vibrar</string>
