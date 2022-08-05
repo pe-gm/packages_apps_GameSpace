@@ -16,7 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="settings_title">Игровое Пространство</string>
+    <string name="settings_title">Game Space</string>
     <string name="settings_summary">Настройка игровых возможностей</string>
     <!-- Game options -->
     <string name="in_game_preferences_title">Настройки игры</string>
@@ -67,7 +67,7 @@
     <string name="memory_format">Доступная память: <xliff:g id="availmemory" example="1000">%1$d</xliff:g>\/<xliff:g id="totalmemory" example="5000">%2$d</xliff:g> MB</string>
     <!-- Tiles -->
     <string name="game_mode_title">Режим</string>
-    <string name="fps_Info_title">Отображать FPS</string>
+    <string name="fps_Info_title">Информация о FPS</string>
     <string name="notification_hide">Скрыть</string>
     <string name="notification_headsup">Всплывающие уведомления</string>
     <string name="notification_reticker">reTicker</string>
