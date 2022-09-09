@@ -23,11 +23,11 @@
     <string name="suppress_fullscreen_intent_title">Блокировать полноэкранные уведомления</string>
     <string name="suppress_fullscreen_intent_summary">Предотвращать появление полноэкранных уведомлений, таких как входящие вызовы, во время игры</string>
     <string name="stay_awake_title">Не выключать экран</string>
-    <string name="lock_gesture_title">Жест блокировки</string>
+    <string name="lock_gesture_title">Блокировать жесты</string>
     <string name="auto_brightness_disabled_title">Отключить автояркость</string>
     <string name="three_screenshot_disabled_title">Отключить свайп для скриншота</string>
     <string name="adb_disabled_title">Отключить отладку USB</string>
-    <string name="gamespace_menu_opacity_title">Уровень прозрачности меню наложения</string>
+    <string name="gamespace_menu_opacity_title">Уровень прозрачности меню Game Space</string>
     <!-- Notification Mode -->
     <string name="notification_mode_title">Режим уведомлений</string>
     <string name="notification_mode_hide">Не показывать</string>
