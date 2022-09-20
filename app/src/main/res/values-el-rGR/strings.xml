@@ -43,14 +43,14 @@
     <!-- Game picker -->
     <string name="game_list_title">Βιβλιοθήκη</string>
     <string name="game_list_add_title">Προσθήκη</string>
-    <string name="app_selector_label">Διάλεξε το παιχνίδι σου</string>
+    <string name="app_selector_label">Επιλέξτε το παιχνίδι σας</string>
     <string name="app_search_title">Αναζήτηση</string>
-    <string name="game_remove_message">Είστε βέβαιοι ότι θέλετε να αφαιρέσετε το %1$s από τη βιβλιοθήκη σας;</string>
+    <string name="game_remove_message">Είστε βέβαιοι ότι θέλετε να αφαιρέσετε το %1$s από τη λίστα των παιχνιδιών σας;</string>
     <!-- Configure game -->
     <string name="per_app_title">Διαμόρφωση παιχνιδιού</string>
     <string name="per_app_mode_title">Προτιμώμενη λειτουργία</string>
     <string name="per_app_angle_title">Χρήση ANGLE (πειραματικό)</string>
-    <string name="per_app_angle_summary">Χρήση του renderer ANGLE αντί για τους τοπικούς οδηγούς GLES, αν η συσκευή το υποστηρίζει.\nΠΡΟΕΙΔΟΠΟΙΗΣΗ!! Μπορεί να χαλάσει γραφικά παιχνιδιών, χρησιμοποιήστε με προσοχή!</string>
+    <string name="per_app_angle_summary">Χρήση του ANGLE renderer αντί των εγγενών προγραμμάτων οδήγησης GLES.\nΠΡΟΕΙΔΟΠΟΙΗΣΗ!! Μπορεί να χαλάσει τα γραφικά του παιχνιδιού, χρησιμοποιήστε με προσοχή!</string>
     <string name="cant_find_angle_pkg">Το ANGLE δεν είναι διαθέσιμο στο σύστημά σας</string>
     <string name="per_app_unregister">Αφαίρεση %1$s από τη βιβλιοθήκη</string>
     <string name="game_mode_unsupported">Δεν υποστηρίζεται</string>
@@ -72,6 +72,6 @@
     <string name="notification_headsup">Αναδυόμενες ειδοποιήσεις</string>
     <string name="notification_reticker">reTicker</string>
     <string name="notification_danmaku">Danmaku</string>
-    <string name="state_enabled">Ενεργοποιημένο</string>
-    <string name="state_disabled">Απενεργοποιημενο</string>
+    <string name="state_enabled">Ενεργό</string>
+    <string name="state_disabled">Ανενεργό</string>
 </resources>

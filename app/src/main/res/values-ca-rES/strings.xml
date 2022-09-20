@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2021 Chaldeaprjkt
+                   2022 crDroid Android Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_title">Espai de joc</string>
+    <string name="settings_summary">Gestiona la configuració de joc</string>
+    <!-- Game options -->
+    <string name="in_game_preferences_title">Opcions de joc</string>
+    <string name="suppress_fullscreen_intent_title">Bloqueja els esdeveniments a pantalla completa</string>
+    <string name="suppress_fullscreen_intent_summary">Impedeix els esdeveniments a pantalla completa com trucades entrants</string>
+    <string name="stay_awake_title">Mantén la pantalla encesa</string>
+    <string name="lock_gesture_title">Gest de bloqueig</string>
+    <string name="auto_brightness_disabled_title">Desactiva la brillantor automàtica</string>
+    <string name="three_screenshot_disabled_title">Desactiva el lliscament per a fer captures de pantalla</string>
+    <string name="adb_disabled_title">Desactiva la depuració USB</string>
+    <string name="gamespace_menu_opacity_title">Opacitat del menú flotant</string>
+    <!-- Notification Mode -->
+    <string name="notification_mode_title">Mode de notificacions</string>
+    <string name="notification_mode_hide">No en mostris</string>
+    <string name="notification_mode_headsup">Mostra-les com a flotants</string>
+    <string name="notification_mode_reticker">Mostra-les amb el reTicker</string>
+    <string name="notification_mode_danmaku">Mostra-les amb Danmaku</string>
+    <!-- Ringer Mode -->
+    <string name="ringer_mode_title">Mode de so</string>
+    <string name="ringer_mode_silent">Silenci</string>
+    <string name="ringer_mode_vibrate">Vibració</string>
+    <string name="ringer_mode_normal">Normal</string>
+    <string name="ringer_mode_no_change">No el canviis</string>
+    <!-- Game picker -->
+    <string name="game_list_title">Biblioteca de jocs</string>
+    <string name="game_list_add_title">Afegeix</string>
+    <string name="app_selector_label">Tria el teu joc</string>
+    <string name="app_search_title">Cerca</string>
+    <string name="game_remove_message">Segur que voleu eliminar %1$s de la llista de jocs?</string>
+    <!-- Configure game -->
+    <string name="per_app_title">Configura el joc</string>
+    <string name="per_app_mode_title">Mode preferit</string>
+    <string name="per_app_angle_title">Utilitza ANGLE (experimental)</string>
+    <string name="per_app_angle_summary">ATENCIÓ! Utilitzar el renderitzat ANGLE en lloc dels controladors GLES natius pot trencar els gràfics dels jocs. Ves amb compte!</string>
+    <string name="cant_find_angle_pkg">ANGLE no està disponible en el sistema</string>
+    <string name="per_app_unregister">Elimina %1$s de la biblioteca</string>
+    <string name="game_mode_unsupported">No suportat</string>
+    <string name="game_mode_standard">Estàndard</string>
+    <string name="game_mode_performance">Rendiment</string>
+    <string name="game_mode_battery">Bateria</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Valor: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">per defecte</string>
+    <string name="custom_seekbar_default_value_to_set">Valor per defecte: <xliff:g id="v">%s</xliff:g>\nPulsació llarga per a definir</string>
+    <string name="custom_seekbar_default_value_is_set">Valor per defecte</string>
+    <!-- Game overlay -->
+    <string name="battery_format" formatted="false">Bateria: <xliff:g id="percentage" example="100">%1$d% %</xliff:g></string>
+    <string name="memory_format">Memòria disponible: <xliff:g id="availmemory" example="1000">%1$d</xliff:g>\/<xliff:g id="totalmemory" example="5000">%2$d</xliff:g> MB</string>
+    <!-- Tiles -->
+    <string name="game_mode_title">Mode</string>
+    <string name="fps_Info_title">Info de FPS</string>
+    <string name="notification_hide">Amaga</string>
+    <string name="notification_headsup">Notificacions flotants</string>
+    <string name="notification_reticker">reTicker</string>
+    <string name="notification_danmaku">Danmaku</string>
+    <string name="state_enabled">Activat</string>
+    <string name="state_disabled">Desactivat</string>
+</resources>
