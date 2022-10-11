@@ -25,7 +25,7 @@
     <string name="stay_awake_title">Не выключать экран</string>
     <string name="lock_gesture_title">Блокировать жесты</string>
     <string name="auto_brightness_disabled_title">Отключить автояркость</string>
-    <string name="three_screenshot_disabled_title">Отключить свайп для скриншота</string>
+    <string name="three_screenshot_disabled_title">Отключить свайп для создания снимка экрана</string>
     <string name="adb_disabled_title">Отключить отладку USB</string>
     <string name="gamespace_menu_opacity_title">Уровень прозрачности меню Game Space</string>
     <!-- Notification Mode -->
@@ -38,7 +38,7 @@
     <string name="ringer_mode_title">Режим звонка</string>
     <string name="ringer_mode_silent">Без звука</string>
     <string name="ringer_mode_vibrate">Вибрация</string>
-    <string name="ringer_mode_normal">Нормальный</string>
+    <string name="ringer_mode_normal">Обычный</string>
     <string name="ringer_mode_no_change">Не изменять</string>
     <!-- Game picker -->
     <string name="game_list_title">Библиотека</string>
@@ -72,6 +72,6 @@
     <string name="notification_headsup">Всплывающие уведомления</string>
     <string name="notification_reticker">reTicker</string>
     <string name="notification_danmaku">Danmaku</string>
-    <string name="state_enabled">включено</string>
-    <string name="state_disabled">отключено</string>
+    <string name="state_enabled">Включено</string>
+    <string name="state_disabled">Отключено</string>
 </resources>
