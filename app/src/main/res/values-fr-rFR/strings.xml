@@ -72,4 +72,10 @@
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">Activé</string>
     <string name="state_disabled">Désactivé</string>
+    <string name="in_game_calls_title">Appel en jeu</string>
+    <string name="in_game_calls_no_action">Aucune action</string>
+    <string name="in_game_calls_auto_answer">Répondre automatiquement</string>
+    <string name="in_game_calls_auto_reject">Rejeter automatiquement</string>
+    <string name="in_game_calls_received_number">Appel reçu de %1$s</string>
+    <string name="in_game_calls_rejected_number">Appel rejeté de %1$s</string>
 </resources>

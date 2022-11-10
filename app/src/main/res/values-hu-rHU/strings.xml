@@ -72,4 +72,10 @@
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">Engedélyezve</string>
     <string name="state_disabled">Letiltva</string>
+    <string name="in_game_calls_title">Bejövő hívás játék közben</string>
+    <string name="in_game_calls_no_action">Nincs művelet</string>
+    <string name="in_game_calls_auto_answer">Automatikus válasz</string>
+    <string name="in_game_calls_auto_reject">Automatikus elutasítás</string>
+    <string name="in_game_calls_received_number">%1$s fogadott hívásai</string>
+    <string name="in_game_calls_rejected_number">%1$s elutasított hívásai</string>
 </resources>

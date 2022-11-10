@@ -21,7 +21,7 @@
     <!-- Game options -->
     <string name="in_game_preferences_title">Tùy chọn trong trò chơi</string>
     <string name="suppress_fullscreen_intent_title">Chặn sự kiện toàn màn hình</string>
-    <string name="suppress_fullscreen_intent_summary">Ngăn các sự kiện toàn màn hình như cuộc gọi đến xuất hiện khi ở trong trò chơi</string>
+    <string name="suppress_fullscreen_intent_summary">Ngăn các sự kiện toàn màn hình như cuộc gọi đến xuất hiện</string>
     <string name="stay_awake_title">Không khóa màn hình</string>
     <string name="lock_gesture_title">Khóa cử chỉ</string>
     <string name="auto_brightness_disabled_title">Tắt độ sáng tự động</string>
@@ -72,4 +72,10 @@
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">đã bật</string>
     <string name="state_disabled">tắt</string>
+    <string name="in_game_calls_title">Cuộc gọi trong game</string>
+    <string name="in_game_calls_no_action">Không hành động</string>
+    <string name="in_game_calls_auto_answer">Tự động trả lời</string>
+    <string name="in_game_calls_auto_reject">Tự động từ chối</string>
+    <string name="in_game_calls_received_number">Nhận cuộc gọi từ %1$s</string>
+    <string name="in_game_calls_rejected_number">Từ chối cuộc gọi từ %1$s</string>
 </resources>

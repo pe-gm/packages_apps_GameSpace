@@ -72,4 +72,10 @@
     <string name="notification_danmaku">Данмаку</string>
     <string name="state_enabled">увімкнено</string>
     <string name="state_disabled">вимкнено</string>
+    <string name="in_game_calls_title">Вхідний виклик</string>
+    <string name="in_game_calls_no_action">Жодної дії</string>
+    <string name="in_game_calls_auto_answer">Автовідповідач</string>
+    <string name="in_game_calls_auto_reject">Відхилити автоматично</string>
+    <string name="in_game_calls_received_number">Пропущений дзвінок від %1$s</string>
+    <string name="in_game_calls_rejected_number">Пропущений дзвінок від %1$s</string>
 </resources>

@@ -72,4 +72,10 @@
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">etkin</string>
     <string name="state_disabled">devre dışı</string>
+    <string name="in_game_calls_title">Oyun içi çağrı</string>
+    <string name="in_game_calls_no_action">Eylem yok</string>
+    <string name="in_game_calls_auto_answer">Otomatik cevapla</string>
+    <string name="in_game_calls_auto_reject">Otomatik reddet</string>
+    <string name="in_game_calls_received_number">%1$s kullanıcısından gelen arama</string>
+    <string name="in_game_calls_rejected_number">%1$s kullanıcısından gelen cevapsız arama</string>
 </resources>
