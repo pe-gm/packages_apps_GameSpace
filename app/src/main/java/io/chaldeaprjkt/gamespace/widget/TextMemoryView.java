@@ -1,5 +1,4 @@
 /*
- * Copyright (C) 2022 crDroid Android Project
  * Copyright (C) 2022 riceDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,20 +22,20 @@ import android.os.Handler;
 import android.os.Looper;
 import android.util.AttributeSet;
 import android.view.View;
-import android.widget.ProgressBar;
+import android.widget.TextView;
 
 import java.lang.Runnable;
 
 import io.chaldeaprjkt.gamespace.R;
 
-public class MemoryView extends ProgressBar {
+public class TextMemoryView extends TextView {
 
     private ActivityManager mActivityManager;
 
     private Handler mHandler;
     private MemInfoWorker mWorker;
 
-    public MemoryView(Context context, AttributeSet attrs) {
+    public TextMemoryView(Context context, AttributeSet attrs) {
         super(context, attrs);
 
         mActivityManager = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
@@ -83,8 +82,7 @@ public class MemoryView extends ProgressBar {
             long totalMemMiB = totalMem / (1024 * 1024);
             int percentMem = (int)(Math.round(availMemMiB * 100.0 / totalMemMiB));
             int usedMem = (int)(100 - percentMem);
-            setMax(100);
-            setProgress(usedMem);
+            setText(getContext().getString(R.string.memory_format, usedMem));
 
             mHandler.postDelayed(this, 1000);
         }

@@ -19,10 +19,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.android.settingslib.widget.IllustrationPreference
-        android:key="game_settings_illustration_video"
-        app:lottie_rawRes="@raw/game_settings_illustration" />
-
     <PreferenceCategory
         android:key="in_game_preferences"
         android:title="@string/in_game_preferences_title">
