@@ -14,7 +14,7 @@
         android:minEms="3"
         android:paddingHorizontal="8dp"
         android:textAlignment="center"
-        android:textColor="@color/onBarBackground"
+        android:textColor="@color/onBarBackgroundText"
         android:textSize="13sp" />
 
 </LinearLayout>
