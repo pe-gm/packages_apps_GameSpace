@@ -16,47 +16,47 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="settings_title">مساحة الألعاب</string>
-    <string name="settings_summary">إدارة إعداد الألعاب الخاص بك</string>
+    <string name="settings_title">مكان الألعاب </string>
+    <string name="settings_summary">إدارة إعداد اللعب خاصتك</string>
     <!-- Game options -->
-    <string name="in_game_preferences_title">خيارات داخل اللعبة</string>
-    <string name="suppress_fullscreen_intent_title">حظر حدث ملء الشاشة</string>
-    <string name="suppress_fullscreen_intent_summary">منع أحداث ملء الشاشة مثل المكالمات الواردة من الظهور أثناء اللعبة</string>
-    <string name="stay_awake_title">البقاء مستيقظاً</string>
+    <string name="in_game_preferences_title">الخيارات داخل اللعبة </string>
+    <string name="suppress_fullscreen_intent_title">حظر ملء الشاشة</string>
+    <string name="suppress_fullscreen_intent_summary">منع ملء الشاشة من الظهور في الألعاب مثل المكالمات الواردة</string>
+    <string name="stay_awake_title">إبقاء الشاشة مشغلة</string>
     <string name="lock_gesture_title">قفل الإيماءة</string>
-    <string name="auto_brightness_disabled_title">تعطيل السطوع التلقائي</string>
-    <string name="three_screenshot_disabled_title">تعطيل السحب لأخذ لقطة الشاشة</string>
+    <string name="auto_brightness_disabled_title">تعطيل السطوع التكيفي</string>
+    <string name="three_screenshot_disabled_title">تعطيل السحب لأخذ لقطة شاشة</string>
     <string name="adb_disabled_title">تعطيل تصحيح أخطاء USB</string>
     <string name="gamespace_menu_opacity_title">مستوى عتامة القائمة</string>
     <!-- Notification Mode -->
-    <string name="notification_mode_title">وضع الإشعارات</string>
-    <string name="notification_mode_hide">لا تظهر</string>
-    <string name="notification_mode_headsup">إظهار كتنبيهات أعلى</string>
-    <string name="notification_mode_reticker">إظهار كمؤشر</string>
-    <string name="notification_mode_danmaku">إظهار كدانماكو</string>
+    <string name="notification_mode_title">تصميم الاشعارات باللعبة</string>
+    <string name="notification_mode_hide">لا تُظهر</string>
+    <string name="notification_mode_headsup">إظهار كإشعار منبثق</string>
+    <string name="notification_mode_reticker">إظهار كموشر</string>
+    <string name="notification_mode_danmaku">إظهار على شكل Danmaku</string>
     <!-- Ringer Mode -->
-    <string name="ringer_mode_title">وضع الرنين</string>
-    <string name="ringer_mode_silent">صامت</string>
-    <string name="ringer_mode_vibrate">اهتزاز</string>
-    <string name="ringer_mode_normal">عادي</string>
-    <string name="ringer_mode_no_change">البقاء دون تغيير</string>
+    <string name="ringer_mode_title">وضع الرنين للمكالمة</string>
+    <string name="ringer_mode_silent">رنين صامت</string>
+    <string name="ringer_mode_vibrate">وضع هزّاز</string>
+    <string name="ringer_mode_normal">طبيعي</string>
+    <string name="ringer_mode_no_change">دون تغيير</string>
     <!-- Game picker -->
-    <string name="game_list_title">المكتبة</string>
-    <string name="game_list_add_title">إضافة</string>
-    <string name="app_selector_label">اختر لعبتك</string>
+    <string name="game_list_title">مكتبة</string>
+    <string name="game_list_add_title">أضيف</string>
+    <string name="app_selector_label">اختار لعبتك</string>
     <string name="app_search_title">البحث</string>
-    <string name="game_remove_message">هل أنت متأكد من أنك تريد إزالة %1$s من مكتبتك؟</string>
+    <string name="game_remove_message">هل أنت متأكد من أنك تريد إزالة %1$s من مكتبة العابك؟</string>
     <!-- Configure game -->
-    <string name="per_app_title">تكوين اللعبة</string>
-    <string name="per_app_mode_title">الوضع المفضل</string>
-    <string name="per_app_angle_title">استخدام ANGLE (تجريبي)</string>
-    <string name="per_app_angle_summary">استخدام جهاز عرض ANGLE بدلاً من برامج تشغيل GLES الأصلية. \n تحذير!! قد يكسر رسومات اللعبة، استخدم بحذر!</string>
-    <string name="cant_find_angle_pkg">ANGLE غير متوفر على النظام الخاص بك</string>
-    <string name="per_app_unregister">إزالة %1$s من المكتبة</string>
-    <string name="game_mode_unsupported">غير مدعوم</string>
-    <string name="game_mode_standard">قياسي</string>
+    <string name="per_app_title">ضبط اللعبة</string>
+    <string name="per_app_mode_title">الوضع المستحب</string>
+    <string name="per_app_angle_title">استخدام الزاوية (تجريبي)</string>
+    <string name="per_app_angle_summary">استخدام محمل ANGLE بدلاً من تعريفات GLES المحلية. \n تحذير!! قد يفسد رسوميات اللعبة‚ استخدم مع الحذر!</string>
+    <string name="cant_find_angle_pkg">ANGEL غير متوفر على نظامك</string>
+    <string name="per_app_unregister">إزالة %1$s من مكتبة الألعاب</string>
+    <string name="game_mode_unsupported">وضع اللعبة هذا غير مدعوم</string>
+    <string name="game_mode_standard">نموذي</string>
     <string name="game_mode_performance">الأداء</string>
-    <string name="game_mode_battery">البطارية</string>
+    <string name="game_mode_battery">توفير البطارية</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">القيمة: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">بشكل افتراضي</string>
@@ -64,12 +64,18 @@
     <string name="custom_seekbar_default_value_is_set">تم تعيين القيمة الافتراضية</string>
     <!-- Game overlay -->
     <!-- Tiles -->
-    <string name="game_mode_title">الوضع</string>
-    <string name="fps_Info_title">معلومات FPS</string>
-    <string name="notification_hide">إخفاء</string>
-    <string name="notification_headsup">التنبيهات العلوية</string>
-    <string name="notification_reticker">مؤشر</string>
-    <string name="notification_danmaku">دانماكو</string>
-    <string name="state_enabled">مفعّل</string>
-    <string name="state_disabled">معطل</string>
+    <string name="game_mode_title">وضع اللعبة</string>
+    <string name="fps_Info_title">معلومات إطارات الشاشة</string>
+    <string name="notification_hide">اخفاء الاشعارات</string>
+    <string name="notification_headsup">الإشعارات المنبثقة</string>
+    <string name="notification_reticker">وضع reTicker</string>
+    <string name="notification_danmaku">وضع دانموكا</string>
+    <string name="state_enabled">مشغل</string>
+    <string name="state_disabled">غير مشغل</string>
+    <string name="in_game_calls_title">المكالمة في اللعبة</string>
+    <string name="in_game_calls_no_action">بدون اجراء</string>
+    <string name="in_game_calls_auto_answer">الرد التلقائي</string>
+    <string name="in_game_calls_auto_reject">رفض تلقائي</string>
+    <string name="in_game_calls_received_number">مكالمة واردة من %1$s</string>
+    <string name="in_game_calls_rejected_number">مكالمة مرفوضة من %1$s</string>
 </resources>

@@ -72,4 +72,10 @@
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">Включено</string>
     <string name="state_disabled">Отключено</string>
+    <string name="in_game_calls_title">Вызов в игре</string>
+    <string name="in_game_calls_no_action">Нет действия</string>
+    <string name="in_game_calls_auto_answer">Автоматический ответ</string>
+    <string name="in_game_calls_auto_reject">Автоматический отказ</string>
+    <string name="in_game_calls_received_number">Поступил звонок от %1$s</string>
+    <string name="in_game_calls_rejected_number">Отклоненный вызов от %1$s</string>
 </resources>
