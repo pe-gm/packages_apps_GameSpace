@@ -35,7 +35,7 @@
     </style>
 
     <style name="GameSpaceTheme.Panel.Tile">
-        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColor">@color/tile_title_color</item>
     </style>
 
 </resources>
