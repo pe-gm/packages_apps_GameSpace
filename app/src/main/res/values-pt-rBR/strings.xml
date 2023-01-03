@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="settings_title">Espaço de jogos</string>
+    <string name="settings_panel_title">Ajustes</string>
     <string name="settings_summary">Gerencie sua configuração de jogos</string>
     <!-- Game options -->
     <string name="in_game_preferences_title">Opções</string>
