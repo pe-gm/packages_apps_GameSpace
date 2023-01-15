@@ -72,4 +72,10 @@
     <string name="notification_danmaku">弹幕</string>
     <string name="state_enabled">已启用</string>
     <string name="state_disabled">已禁用</string>
+    <string name="in_game_calls_title">游戏内呼叫</string>
+    <string name="in_game_calls_no_action">不进行任何操作</string>
+    <string name="in_game_calls_auto_answer">自动接听</string>
+    <string name="in_game_calls_auto_reject">自动拒绝</string>
+    <string name="in_game_calls_received_number">接受了来自 %1$s 的来电</string>
+    <string name="in_game_calls_rejected_number">拒绝了来自 %1$s 的来电</string>
 </resources>

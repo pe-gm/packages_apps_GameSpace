@@ -30,7 +30,7 @@
     <string name="gamespace_menu_opacity_title">Opacitat del menú flotant</string>
     <!-- Notification Mode -->
     <string name="notification_mode_title">Mode de notificacions</string>
-    <string name="notification_mode_hide">No en mostris</string>
+    <string name="notification_mode_hide">No mostrar</string>
     <string name="notification_mode_headsup">Mostra-les com a flotants</string>
     <string name="notification_mode_reticker">Mostra-les amb el reTicker</string>
     <string name="notification_mode_danmaku">Mostra-les amb Danmaku</string>
@@ -72,4 +72,10 @@
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">Activat</string>
     <string name="state_disabled">Desactivat</string>
+    <string name="in_game_calls_title">Trucada en el joc</string>
+    <string name="in_game_calls_no_action">Cap acció</string>
+    <string name="in_game_calls_auto_answer">Resposta automàtica</string>
+    <string name="in_game_calls_auto_reject">Rebuig automàtic</string>
+    <string name="in_game_calls_received_number">S\'ha rebut una trucada de %1$s</string>
+    <string name="in_game_calls_rejected_number">S\'ha rebutjat una trucada de %1$s</string>
 </resources>
