@@ -26,7 +26,6 @@
     <string name="suppress_fullscreen_intent_title">Block fullscreen event</string>
     <string name="suppress_fullscreen_intent_summary">Prevent fullscreen events like incoming calls from appearing</string>
     <string name="stay_awake_title">Stay awake</string>
-    <string name="lock_gesture_title">Lock gesture</string>
     <string name="auto_brightness_disabled_title">Disable auto-brightness</string>
     <string name="three_screenshot_disabled_title">Disable swipe to screenshot</string>
     <string name="adb_disabled_title">Disable USB debugging</string>

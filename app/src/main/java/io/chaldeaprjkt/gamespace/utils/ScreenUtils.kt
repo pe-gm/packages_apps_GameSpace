@@ -62,11 +62,6 @@ class ScreenUtils @Inject constructor(private val context: Context) {
 
     val recorder: IRemoteRecording? get() = remoteRecording
 
-    private var isGestureLocked = false
-    private val statusBarService = IStatusBarService.Stub.asInterface(
-        ServiceManager.getService(Context.STATUS_BAR_SERVICE)
-    )
-
     fun bind() {
         isRecorderBound = context.bindServiceAsUser(Intent().apply {
             component = ComponentName(
@@ -88,12 +83,6 @@ class ScreenUtils @Inject constructor(private val context: Context) {
             context.unbindService(recorderConnection)
         }
         remoteRecording = null
-        try {
-            statusBarService.setBlockedGesturalNavigation(false)
-            isGestureLocked = false
-        } catch (e: RemoteException) {
-            Log.e("GameSpace:ScreenUtils", "Failed to toggle gesture off")
-        }
     }
 
     fun takeScreenshot(onComplete: ((Uri?) -> Unit)? = null) {
@@ -116,15 +105,4 @@ class ScreenUtils @Inject constructor(private val context: Context) {
             }
         }
 
-    var lockGesture = false
-        get() = isGestureLocked
-        set(enable) {
-            try {
-                statusBarService.setBlockedGesturalNavigation(enable)
-                field = enable
-                isGestureLocked = enable
-            } catch (e: RemoteException) {
-                Log.e("GameSpace:ScreenUtils", "Failed to toggle gesture")
-            }
-        }
 }
