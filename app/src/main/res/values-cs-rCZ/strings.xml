@@ -72,4 +72,10 @@
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">zapnuto</string>
     <string name="state_disabled">vypnuto</string>
+    <string name="in_game_calls_title">Volání ve hrách</string>
+    <string name="in_game_calls_no_action">Žádná akce</string>
+    <string name="in_game_calls_auto_answer">Automatická odpověď</string>
+    <string name="in_game_calls_auto_reject">Automaticky odmítnout</string>
+    <string name="in_game_calls_received_number">Přijatý hovor od %1$s</string>
+    <string name="in_game_calls_rejected_number">Odmítnutý hovor od %1$s</string>
 </resources>
