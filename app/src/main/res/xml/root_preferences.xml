@@ -29,7 +29,7 @@
         android:title="@string/in_game_preferences_title">
 
         <ListPreference
-            android:defaultValue="3"
+            android:defaultValue="1"
             android:entries="@array/notification_mode_entries"
             android:entryValues="@array/notification_mode_values"
             android:key="gamespace_notification_mode"
