@@ -146,6 +146,7 @@ class SessionService : Hilt_SessionService() {
             applyGameModeConfig(app)
             gameBar.onGameStart()
             screenUtils.stayAwake = appSettings.stayAwake
+            screenUtils.lockGesture = appSettings.lockGesture
         } catch (e: Exception) {
             Log.d(TAG, e.toString())
         }
