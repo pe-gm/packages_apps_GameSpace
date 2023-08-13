@@ -82,12 +82,6 @@
             android:key="gamespace_lock_gesture"
             android:title="@string/lock_gesture_title" />
 
-        <SwitchPreference
-            android:defaultValue="false"
-            android:key="gamespace_adb_disabled"
-            android:summary="@string/adb_disabled_summary"
-            android:title="@string/adb_disabled_title" />
-
     </PreferenceCategory>
 
     <io.chaldeaprjkt.gamespace.preferences.AppListPreferences
