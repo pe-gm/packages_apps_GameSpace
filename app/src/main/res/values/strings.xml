@@ -32,6 +32,7 @@
     <string name="chaldea">chaldeaprjkt</string>
     <string name="state_enabled">Enabled</string>
     <string name="state_disabled">Disabled</string>
+    <string name="state_default">Default</string>
     <!-- Game Mode Name - sorted by GameManager's enum, do not modify the sequence! -->
     <string name="game_mode_title">Mode</string>
     <string-array name="game_mode_names">
@@ -82,10 +83,12 @@
     <string name="notification_mode_title">Notification mode</string>
     <string name="notification_mode_hide">Do not show</string>
     <string name="notification_mode_headsup">Show as heads up</string>
+    <string name="notification_mode_reticker">Show as reTicker</string>
     <string name="notification_mode_danmaku">Show as Danmaku</string>
 
     <string name="notification_hide">Hide</string>
     <string name="notification_headsup">Heads Up</string>
+    <string name="notification_reticker">reTicker</string>
     <string name="notification_danmaku">Danmaku</string>
     
     <!-- Ringer Mode -->
@@ -95,4 +98,8 @@
     <string name="in_game_calls_auto_reject">Auto reject</string>
     <string name="in_game_calls_received_number">Received call from %1$s</string>
     <string name="in_game_calls_rejected_number">Rejected call from %1$s</string>
+    
+    <!-- Danmaku Notification Mode -->
+    <string name="danmaku_notification_mode_title">Danmaku Notification mode</string>
+    <string name="danmaku_notification_mode_summary">Show notification as danmaku aka bullet comments while game is active</string>
 </resources>

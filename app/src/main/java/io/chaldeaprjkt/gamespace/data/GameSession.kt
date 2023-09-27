@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2021 Chaldeaprjkt
  *               2022 crDroid Android Project
+ * Copyright (C) 2023 risingOS Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -57,22 +58,18 @@ class GameSession @Inject constructor(
         state = SessionState(
             packageName = sessionName,
             autoBrightness = systemSettings.autoBrightness,
+            headsup = systemSettings.headsup,
             threeScreenshot = systemSettings.threeScreenshot,
-            headsUp = systemSettings.headsUp,
             ringerMode = audioManager.ringerModeInternal,
         )
         if (appSettings.noAutoBrightness) {
             systemSettings.autoBrightness = false
         }
+        if (appSettings.danmakuNotification) {
+            systemSettings.headsup = false
+        }
         if (appSettings.noThreeScreenshot) {
             systemSettings.threeScreenshot = false
-        }
-        if (appSettings.notificationMode == 0 || appSettings.notificationMode == 3) {
-            systemSettings.headsUp = false
-        } else if (appSettings.notificationMode == 1) {
-            systemSettings.headsUp = true
-        } else {
-            systemSettings.headsUp = true
         }
         if (appSettings.ringerMode != 3) {
             audioManager.ringerModeInternal = appSettings.ringerMode
@@ -84,10 +81,12 @@ class GameSession @Inject constructor(
         if (appSettings.noAutoBrightness) {
             orig.autoBrightness?.let { systemSettings.autoBrightness = it }
         }
+        if (appSettings.danmakuNotification) {
+            orig.headsup?.let { systemSettings.headsup = it }
+        }
         if (appSettings.noThreeScreenshot) {
             orig.threeScreenshot?.let { systemSettings.threeScreenshot = it }
         }
-        orig.headsUp?.let { systemSettings.headsUp = it }
         if (appSettings.ringerMode != 3) {
             audioManager.ringerModeInternal = orig.ringerMode
         }

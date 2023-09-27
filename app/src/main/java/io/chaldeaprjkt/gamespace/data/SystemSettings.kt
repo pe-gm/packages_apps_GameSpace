@@ -28,13 +28,12 @@ class SystemSettings @Inject constructor(
 
     private val resolver = context.contentResolver
 
-    var headsUp
-        get() =
-            Settings.Global.getInt(resolver, Settings.Global.HEADS_UP_NOTIFICATIONS_ENABLED, 1) == 1
+    var headsup
+        get() = Settings.Global.getInt(
+            resolver, Settings.Global.HEADS_UP_NOTIFICATIONS_ENABLED, 1) == 1
         set(it) {
             Settings.Global.putInt(
-                resolver,
-                Settings.Global.HEADS_UP_NOTIFICATIONS_ENABLED,
+                resolver, Settings.Global.HEADS_UP_NOTIFICATIONS_ENABLED,
                 it.toInt()
             )
         }
